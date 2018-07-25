@@ -1,0 +1,10 @@
+{
+  "/posts": {
+    "target": "http://dev-plantatree.gailabs.com",
+    "secure": true,
+    "pathRewrite": {
+    "^/posts": ""
+  },
+    "changeOrigin": true
+  }
+}
